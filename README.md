@@ -1,6 +1,5 @@
-# DB-Github
+# DB-Github VERSION: 1.0
 GitHub Text Fetcher Extension for Kodular
-VERSION: 1.0
 Easily fetch raw text data directly from GitHub for dynamic content in your Kodular apps.
 
 # About This Extension
