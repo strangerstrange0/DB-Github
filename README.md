@@ -34,6 +34,27 @@ This event is triggered when the text data has been successfully fetched from th
 
 This event is triggered if an error occurs during the data fetching process (e.g., network issues, invalid URL, file not found, server errors, or any other issue that prevents a successful request).
 
+4. ![image](https://github.com/user-attachments/assets/91908341-c088-428d-ba7a-f3a6589256ba)
+
+This event allows you to download a file from a specified URL (e.g., a raw GitHub file) and save it to a designated location on the user's device. This is particularly useful for downloading assets, configurations, or other files directly from your GitHub repository.
+
+5. ![image](https://github.com/user-attachments/assets/57f17325-9ce2-4f0f-b13f-18b35cc0f9ac)
+
+This method is designed to fetch JSON formatted data from a specified URL, typically a raw JSON file hosted on GitHub.
+
+6. ![image](https://github.com/user-attachments/assets/457c3d86-81fd-4f84-bcd1-8ef2b5aedcb5)
+
+This event is triggered when a file initiated by the Download File method has been successfully downloaded and saved to the specified folderPath on the device.
+
+7. ![image](https://github.com/user-attachments/assets/7a26337a-b67b-4c70-b204-e56c6642a3be)
+
+This event is triggered when JSON data, initiated by the FetchJsonData method, has been successfully fetched from the specified GitHub URL. This block provides the raw JSON content as a string, which you can then parse using Kodular's built-in JSON utilities.
+
+
+
+
+
+
 
 
 
